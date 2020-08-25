@@ -1,0 +1,48 @@
+*{
+    font-family: 'Meiryo UI', 'メイリオ', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
+body {
+    background-image: url("./cruiser.jpg");
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+
+#main {
+    width: 400px;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.btn-border {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+    border: 2px solid navy;
+    font-size: 16px;
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.btn-border:hover {
+    background-color: navy;
+    border-color: lightskyblue;
+    color: #FFF;
+}
