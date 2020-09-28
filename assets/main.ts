@@ -16,21 +16,9 @@ var dices : Array<HTMLInputElement> = [
 ];
 var userID : number = -1;
 
-// Cookie周りの処理
-var roomName : string = Cookies.get('room');
-var token : string = Cookies.get('token');
-var crew : string = Cookies.get('crew');
 
 window.onload = function () {
     var name : string = "User-" + Math.floor(Math.random() * 1000);
-    // var cookies : string = document.cookie;
-    // var cookiesArray : Array<string> = cookies.split(';');
-    // for(var c : string of cookiesArray) {
-    //     var ca : Array<string> = c.split('=');
-    //     if(ca[0]=="userID") {
-    //         userID = parseInt(ca[1]);
-    //     }
-    // }
 
     userElement.placeholder = name;
 }

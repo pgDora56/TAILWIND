@@ -22,6 +22,7 @@ func main() {
     log.Println("Start azure")
     router := gin.Default()
     router.Static("/assets", "./assets")
+    router.StaticFile("/favicon.ico", "./assets/favicon.ico")
     m := melody.New()
     lock := new(sync.Mutex)
     crewList = make(map[*melody.Session]*Crew)
